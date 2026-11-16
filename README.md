@@ -18,9 +18,9 @@ Las versiones alpha están destinadas a pruebas. Consulta sus notas para conocer
 
 ## Mejora gráfica opcional para Flycast
 
-[Gráficos v0.1.0-alpha.2](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/graficos-v0.1.0-alpha.2): seis texturas de mayor detalle para la introducción, el cielo y dos zonas del terreno del desierto. Incluye ajustes de referencia para resolución interna 1280×960 y xBRZ 4×, que son opcionales y se pueden reducir según el equipo.
+[Alpha.2 ampliada · escenarios](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/graficos-v0.1.0-alpha.2-escenarios.1): 25 texturas, con una primera pasada sobre superficies de los once fondos, incluidos los dos escenarios de jefes y entrenamiento, además de los tres recursos de introducción. El paquete incluye la lista de cambios por escenario. Incluye ajustes opcionales de referencia para PC y una configuración base de menor coste.
 
-Es un complemento del emulador, independiente del DCP de traducción. Esta alpha cubre retoques concretos y no es un remaster completo. El ZIP incluye instrucciones para RetroArch, Flycast y Pickles en muOS, opciones de referencia y los seis PNG; no modifica la imagen del juego. La X roja de diagnóstico no forma parte del pack normal.
+Es un complemento del emulador, independiente del DCP de traducción. Esta alpha cubre retoques concretos y no es un remaster completo. El ZIP incluye instrucciones para RetroArch, Flycast y Pickles en muOS, opciones de referencia y los 25 PNG; no modifica la imagen del juego. La X roja de diagnóstico no forma parte del pack normal.
 
 La traducción y las mejoras gráficas se mantienen en paquetes separados. Puedes usar solo el parche de idioma o añadir el complemento gráfico. Sus ajustes de resolución y escalado se eligen según la potencia del equipo; los valores de esta alpha son una referencia probada en PC, no un requisito para jugar en español.
 
