@@ -16,6 +16,12 @@ El DCP incluye la base inglesa: se aplica directamente al original. No se distri
 
 Las versiones alpha están destinadas a pruebas. Consulta sus notas para conocer cambios y limitaciones.
 
+## Mejora gráfica opcional para Flycast
+
+[Gráficos v0.1.0-alpha.1](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/graficos-v0.1.0-alpha.1): ajustes para resolución interna 1280×960 y escalado xBRZ 4× de texturas y sprites, con cuatro texturas de mayor detalle opcionales para la introducción y el cielo del desierto.
+
+Es un complemento del emulador, independiente del DCP de traducción. Esta primera alpha cubre retoques concretos y no es un remaster completo. El ZIP incluye instrucciones, opciones de referencia y los cuatro PNG; no modifica la imagen del juego.
+
 ## Créditos
 
 Parche inglés: Derek Pascarella (ateam), Duralumin, Jesuszilla, Tortita, Justin Gibbins, rob2d, Silentscope y hasnopants. Entrevistas inglesas: Benjamin Roodberg. Se conservan sus créditos dentro del juego. Capcom y SNK conservan los derechos del juego y sus personajes.
