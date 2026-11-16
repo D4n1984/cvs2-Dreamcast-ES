@@ -22,6 +22,10 @@ Las versiones alpha están destinadas a pruebas. Consulta sus notas para conocer
 
 Es un complemento del emulador, independiente del DCP de traducción. Esta primera alpha cubre retoques concretos y no es un remaster completo. El ZIP incluye instrucciones, opciones de referencia y los cuatro PNG; no modifica la imagen del juego.
 
+La traducción y las mejoras gráficas se mantienen en paquetes separados. Puedes usar solo el parche de idioma o añadir el complemento gráfico. Sus ajustes de resolución y escalado se eligen según la potencia del equipo; los valores de esta alpha son una referencia probada en PC, no un requisito para jugar en español.
+
+Las futuras mejoras del escenario, incluidas las posibles animaciones adicionales, pertenecerán al paquete gráfico opcional. No se limitará su diseño a un dispositivo concreto; cada versión indicará sus requisitos y las plataformas donde se haya probado.
+
 ## Créditos
 
 Parche inglés: Derek Pascarella (ateam), Duralumin, Jesuszilla, Tortita, Justin Gibbins, rob2d, Silentscope y hasnopants. Entrevistas inglesas: Benjamin Roodberg. Se conservan sus créditos dentro del juego. Capcom y SNK conservan los derechos del juego y sus personajes.
