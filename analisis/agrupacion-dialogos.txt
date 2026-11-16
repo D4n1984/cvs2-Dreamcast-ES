@@ -1,9 +1,0 @@
-Análisis estructural de MESJ_WIN.BIN
-SHA-256: 627343ad7155ea792143ed308cbd305ab1dcb9bf9ebcd8c92c50eaaf5b5e0721
-Cadenas físicas: 8496. Cada cadena original se recupera desde 0x13F4 hasta 0x48EE0; CSV usa los mismos números físicos, aunque los offsets del CSV proceden de archivos reconstruidos.
-Cabecera: dos punteros little-endian en 0 y 4: 0x57480 y 0x57540. La primera tabla contiene 48 punteros a índices de bloque. Su orden no coincide siempre con el orden físico. La segunda tabla contiene 48 punteros a estructuras anteriores al texto; su significado preciso no queda demostrado.
-Cada bloque físico tiene una tabla de punteros de cadenas y, a continuación, 104 punteros little-endian a comienzos en esa tabla. El inicio siguiente marca el fin de cada intervención; la última termina donde empieza la tabla de 104 punteros. Son 4992 intervenciones referenciadas: 280 de una línea y 4712 de dos.
-Primeros casos: WIN-0001+WIN-0002; WIN-0003 sola; WIN-0004+WIN-0005; WIN-0006 sola; WIN-0007+WIN-0008. Una pareja es una unidad visual, no necesariamente una única frase o hablante: WIN-0108 y WIN-0109 son dos voces distintas dentro del mismo cuadro. No redistribuir texto entre hablantes sin revisión semántica.
-IDs físicos distintos referenciados: 8496; sin referencia en estas tablas: 0. Referencias repetidas: [('WIN-0138', 1208), ('WIN-2585', 2)]. Los huecos o referencias repetidas deben examinarse antes de modificar datos compartidos.
-El JSON conserva cada instancia, posición del puntero, índice físico y de cabecera, y los IDs en orden; no asigna nombres de personajes ni oponentes porque no se ha demostrado el mapeo. No identifica de forma fiable los cambios de hablante dentro de cada pareja. Se ha validado que cada inicio apunta a la tabla de líneas de su bloque, que son estrictamente crecientes y que todos los grupos tienen una o dos entradas.
-IDs sin referencia:
