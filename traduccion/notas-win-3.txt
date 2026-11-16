@@ -1,0 +1,8 @@
+REVISION POSTERIOR: los casos >50 listados abajo se han corregido en los TSV.
+Estado actual: todas las lineas de victoria tienen <=50 caracteres visibles.
+Ver traduccion/ajustes-revision.json. Pendiente revision visual extensa.
+
+Estado: 2496 filas WIN-6001–WIN-8496; secuencia y campos verificados.
+Excepciones de más de 50 caracteres, conservadas para no omitir sentido:
+WIN-7908 (56)
+WIN-8490 (57)

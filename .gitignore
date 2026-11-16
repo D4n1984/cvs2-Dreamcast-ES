@@ -1,0 +1,21 @@
+# Local disc images and proprietary extracted game resources
+/roms/
+/parches/
+/parche-ingles/
+/build/
+/dist/
+/analisis/original/
+/analisis/ingles/
+/analisis/dcp/
+/analisis/fuentes/
+/preparacion.json
+# Per-workspace runtime and executable dependencies
+/herramientas/python/
+/herramientas/python-embed.zip
+/herramientas/vendor/
+/herramientas/probar_controles.ps1
+__pycache__/
+*.pyc
+*.log
+*.sav
+*.state*

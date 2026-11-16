@@ -1,0 +1,60 @@
+Consulta realizada al subagente gpt-6-astra — viabilidad gráfica
+
+Conclusión: conviene separar un parche conservador para Dreamcast real de un
+complemento opcional de texturas para emulación. No está demostrada la viabilidad
+de una remasterización completa para consola con los recursos disponibles.
+
+HECHOS COMPROBADOS POR ASTRA
+El parche inglés ya retoca miniaturas de retratos y gráficos con texto, pero sus
+herramientas públicas son de texto y tabla de archivos. No ofrecen un flujo
+completo para sustituir sprites, escenarios o efectos.
+CvS2 combina personajes 2D y fondos 3D. Dreamcast dispone de 16 MB de memoria
+principal y 8 MB de memoria de texturas. Flycast admite resolución interna mayor,
+filtrado anisotrópico y extracción/sustitución de texturas mediante hashes.
+
+VALORACIÓN DE INGENIERÍA, PENDIENTE DE PROTOTIPO
+Interfaz y retratos: buenos primeros candidatos. En consola, retocar conservando
+dimensiones/formato; en emulación, probar imágenes de mayor resolución.
+Fondos: aumentar la resolución de renderizado mejora contornos de la geometría;
+un pack de texturas puede añadir detalle a las superficies, no a la geometría.
+Sprites: correcciones pequeñas son plausibles; sustituir todas las animaciones
+con mayor resolución es un proyecto mucho mayor. Validar fragmentación, paletas,
+transparencia y consistencia temporal. Subir resolución interna no redibuja sprites.
+Efectos: se pueden investigar sus texturas; nuevas partículas, iluminación o
+comportamientos exigen modificar el motor, no solamente las imágenes.
+Geometría: requiere descifrar formatos y límites del motor; sin viabilidad acreditada.
+
+LÍMITES
+Duplicar anchura y altura cuadruplica píxeles a igualdad de formato. Más espacio
+en disco o un ODE no amplían la memoria de texturas. Un reescalado automático puede
+deformar caras, manos y contornos o producir incoherencias entre fotogramas.
+Hay que revisar animaciones completas, no solo capturas.
+
+PROPUESTA INCREMENTAL
+1. Mantener reproducible la base inglesa y la futura traducción española.
+2. Comparar idénticas escenas de Flycast a resolución normal y 2×, manteniendo 4:3.
+3. Probar un retrato, una textura de escenario, un efecto y una animación corta.
+4. Comprobar estabilidad de hashes, paletas y rendimiento antes de ampliar.
+5. Empezar por interfaz y escenarios; después efectos y personajes.
+6. Para consola, validar aparte un retoque con dimensiones originales y probar
+   en hardware antes de aumentar alcance.
+
+Esfuerzo relativo: bajo para ajustes del emulador; medio para un pequeño pack
+estático; alto para escenarios/efectos; muy alto para personajes completos o motor.
+No hay un calendario fiable antes del prototipo.
+
+INCÓGNITAS
+Formatos concretos de recursos, compresión, memoria libre, estabilidad de sprites
+volcados y reinserción. No se ha realizado aún ninguna prueba gráfica.
+
+FUENTES CONTRASTADAS POR ASTRA
+Parche e historial de cambios:
+https://github.com/DerekPascarella/Capcomvs.SNK2-EnglishPatchDreamcast
+Entrevista de desarrollo de 2001 (traducción):
+https://itsfantastic.moe/capcom-vs-snk-2-another-play-guide-dev-interviews-pt-2/
+Especificaciones de Dreamcast, Sega:
+https://www.sega.jp/history/hard/dreamcast/
+Documentación del núcleo Flycast:
+https://docs.libretro.com/library/flycast/
+Implementación de texturas personalizadas:
+https://github.com/flyinghead/flycast/blob/master/core/rend/CustomTexture.cpp

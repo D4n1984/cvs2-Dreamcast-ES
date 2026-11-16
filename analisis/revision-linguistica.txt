@@ -1,0 +1,5 @@
+﻿Revisión dirigida, no exhaustiva. Se comprobó la presencia de los 8496 ID WIN y los 498 ID END en los TSV; no se detectaron faltantes. Los dos registros WIN marcados CONSERVAR_SIMBOLOS y los dos END de esa clase coinciden con su fuente. Se examinaron coincidencias exactas inglés-español: corresponden a símbolos, sonidos o expresiones/títulos que conviene mantener según las instrucciones, no a diálogos omitidos.
+
+Se revisaron estos 12 diálogos compuestos, confrontando las líneas contiguas y su distribución: WIN-0050–0051, WIN-0214–0215, WIN-0218–0219, WIN-0222–0223, WIN-0224–0225, WIN-3188–3189, WIN-4412–4413, WIN-5816–5817, WIN-6143–6144, WIN-6788–6789, WIN-7987–7988 y WIN-8136–8137. No se identificaron en ellos errores inequívocos que requieran propuesta.
+
+Se revisaron también END-002–005, END-012–013, END-164–167, END-220–225, END-240–245 y END-478–489. La propuesta para END-241 conserva el sentido de alter ego; las demás muestras no produjeron hallazgos inequívocos. Los títulos en inglés y los nombres de técnicas se han respetado cuando aparecen como tales. Las propuestas son localizadas y no modifican los TSV.

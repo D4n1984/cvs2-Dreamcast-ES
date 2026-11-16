@@ -1,0 +1,51 @@
+{
+   "bonus" : {
+      "actions" : {
+         "REVISAR_TITULO_NOMBRE_O_ETIQUETA" : 318,
+         "TRADUCIR_DESCRIPCION" : 6,
+         "TRADUCIR_PROSA" : 132
+      },
+      "files" : {
+         "ENDOU.HTML" : 30,
+         "FUNAMIZU.HTML" : 53,
+         "INTERVIEWS.HTML" : 39,
+         "ISE.HTML" : 34,
+         "KAMINAGUCHI.HTML" : 25,
+         "KONDOU.HTML" : 33,
+         "MAIN.HTML" : 23,
+         "MAIN_NO_BGM.HTML" : 23,
+         "NAGAYAMA.HTML" : 27,
+         "PLANNERS.HTML" : 97,
+         "SHINKIRO.HTML" : 32,
+         "TRAILER.HTML" : 1,
+         "YAMAZAKI.HTML" : 39
+      },
+      "segments" : 456
+   },
+   "endings" : {
+      "actions" : {
+         "CONSERVAR_SIMBOLOS" : 2,
+         "CONSERVAR_TITULO" : 3,
+         "TRADUCIR_NARRACION" : 493
+      },
+      "slots" : 498
+   },
+   "executable_heuristic_candidates" : 502,
+   "inspected_menu_description_lines" : 26,
+   "limitations" : [
+      "Clasificación preliminar; revisar nombres, títulos y técnicas dentro de cada frase.",
+      "Hablantes y referencias de conversaciones aún sin mapear.",
+      "Gráficos con texto y subtítulos incrustados en vídeo aún sin inventario visual.",
+      "La extracción no prueba compatibilidad de la fuente con español ni reinserción."
+   ],
+   "move_list_preliminary_terms" : 453,
+   "scope" : "Diálogos y descripciones, incluido Bonus Mode. Conservar movimientos, comandos, títulos y nombres propios.",
+   "unit" : "Entradas físicas/líneas; no equivalen a conversaciones ni frases completas",
+   "victory" : {
+      "actions" : {
+         "CONSERVAR_SIMBOLOS" : 3,
+         "TRADUCIR_DIALOGO" : 8493
+      },
+      "slots" : 8496
+   }
+}
