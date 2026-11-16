@@ -18,6 +18,8 @@ Las versiones alpha están destinadas a pruebas. Consulta sus notas para conocer
 
 ## Mejora gráfica opcional para Flycast
 
+[Comparativa interactiva en línea](https://d4n1984.github.io/cvs2-Dreamcast-ES/): trece escenas y 65 capturas, con el original y los packs 2× y 4×, tanto con xBRZ desactivado como con xBRZ 4×. Incluye los cambios por escenario y una vista del coche de Nairobi durante el salto.
+
 [Alpha.3 · escenarios y objetos](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/graficos-v0.1.0-alpha.3): 143 texturas por paquete. Amplía la cobertura a materiales de vehículos, estructuras, público y efectos de los once escenarios y sus variantes identificadas, incluidos los jefes y entrenamiento, además de tres recursos de introducción. Conserva los retoques anteriores y añade dos atlas de coches de Nairobi retocados con IA. Los demás atlas nuevos usan escalado uniforme precalculado, conservando los fotogramas y la transparencia originales. CAMBIOS.txt detalla el contenido por escenario.
 
 Se distribuye en dos ZIP alternativos: PNG a 2×, de menor consumo de memoria, y PNG a 4×. Ambos pueden utilizarse con xBRZ del emulador desactivado; en la RG34XX-SP debe permanecer desactivado, ya que se ha observado un cierre al activar xBRZ 4×. Los dos paquetes se han probado en Flycast en PC; su estabilidad y rendimiento en la RG no están validados. Instala un solo tamaño del pack.
