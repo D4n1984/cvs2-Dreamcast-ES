@@ -18,9 +18,11 @@ Las versiones alpha están destinadas a pruebas. Consulta sus notas para conocer
 
 ## Mejora gráfica opcional para Flycast
 
-[Alpha.2 ampliada · escenarios](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/graficos-v0.1.0-alpha.2-escenarios.1): 25 texturas, con una primera pasada sobre superficies de los once fondos, incluidos los dos escenarios de jefes y entrenamiento, además de los tres recursos de introducción. El paquete incluye la lista de cambios por escenario. Incluye ajustes opcionales de referencia para PC y una configuración base de menor coste.
+[Alpha.3 · escenarios y objetos](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/graficos-v0.1.0-alpha.3): 143 texturas por paquete. Amplía la cobertura a materiales de vehículos, estructuras, público y efectos de los once escenarios y sus variantes identificadas, incluidos los jefes y entrenamiento, además de tres recursos de introducción. Conserva los retoques anteriores y añade dos atlas de coches de Nairobi retocados con IA. Los demás atlas nuevos usan escalado uniforme precalculado, conservando los fotogramas y la transparencia originales. CAMBIOS.txt detalla el contenido por escenario.
 
-Es un complemento del emulador, independiente del DCP de traducción. Esta alpha cubre retoques concretos y no es un remaster completo. El ZIP incluye instrucciones para RetroArch, Flycast y Pickles en muOS, opciones de referencia y los 25 PNG; no modifica la imagen del juego. La X roja de diagnóstico no forma parte del pack normal.
+Se distribuye en dos ZIP alternativos: PNG a 2×, de menor consumo de memoria, y PNG a 4×. Ambos pueden utilizarse con xBRZ del emulador desactivado; en la RG34XX-SP debe permanecer desactivado, ya que se ha observado un cierre al activar xBRZ 4×. Los dos paquetes se han probado en Flycast en PC; su estabilidad y rendimiento en la RG no están validados. Instala un solo tamaño del pack.
+
+Es un complemento del emulador, independiente del DCP de traducción. Esta alpha cubre los 140 hashes de textura correspondientes a los 193 descriptores STG inventariados; no demuestra que incluya otros recursos compartidos o cargados en estados distintos. No sustituye los luchadores de combate ni es un remaster completo. Los ZIP incluyen instrucciones para RetroArch, Flycast y Pickles en muOS y los PNG; no modifican la imagen del juego. La X roja de diagnóstico no forma parte del pack normal.
 
 La traducción y las mejoras gráficas se mantienen en paquetes separados. Puedes usar solo el parche de idioma o añadir el complemento gráfico. Sus ajustes de resolución y escalado se eligen según la potencia del equipo; los valores de esta alpha son una referencia probada en PC, no un requisito para jugar en español.
 
