@@ -6,6 +6,8 @@ Se traducen diálogos y descripciones, incluido Bonus Mode. Los movimientos espe
 
 ## Descarga e instalación
 
+Última versión: [v0.1.0-alpha.2](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/v0.1.0-alpha.2), con los mensajes descriptivos del vídeo de Bonus Mode también en español.
+
 Descarga el parche DCP de [Releases](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases) y aplícalo a la imagen japonesa original sin modificar con [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher) 1.3 o posterior.
 
 MD5 de la pista 3 original: `FF8E199324FC11D4F638E5C99315CDBB`.
