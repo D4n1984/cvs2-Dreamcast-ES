@@ -6,7 +6,7 @@ Se traducen diálogos y descripciones, incluido Bonus Mode. Los movimientos espe
 
 ## Descarga e instalación
 
-Última versión: [v0.1.0-alpha.2](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/v0.1.0-alpha.2), con los mensajes descriptivos del vídeo de Bonus Mode también en español.
+Última versión: [v0.1.0-alpha.3](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases/tag/v0.1.0-alpha.3), con pantalla inicial de la traducción española de D4n1984, agradecimientos a la base inglesa y etiqueta «ESPAÑOL v0.1.0a3» en el título. Incluye los mensajes descriptivos del vídeo de Bonus Mode en español.
 
 Descarga el parche DCP de [Releases](https://github.com/D4n1984/cvs2-Dreamcast-ES/releases) y aplícalo a la imagen japonesa original sin modificar con [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher) 1.3 o posterior.
 
@@ -24,8 +24,8 @@ Es un complemento del emulador, independiente del DCP de traducción. Esta prime
 
 La traducción y las mejoras gráficas se mantienen en paquetes separados. Puedes usar solo el parche de idioma o añadir el complemento gráfico. Sus ajustes de resolución y escalado se eligen según la potencia del equipo; los valores de esta alpha son una referencia probada en PC, no un requisito para jugar en español.
 
-Las futuras mejoras del escenario, incluidas las posibles animaciones adicionales, pertenecerán al paquete gráfico opcional. No se limitará su diseño a un dispositivo concreto; cada versión indicará sus requisitos y las plataformas donde se haya probado.
+El trabajo gráfico se centra en reemplazar los recursos existentes, conservando los movimientos y animaciones originales. No se limita su diseño a un dispositivo concreto; cada versión indicará sus requisitos y las plataformas donde se haya probado.
 
 ## Créditos
 
-Parche inglés: Derek Pascarella (ateam), Duralumin, Jesuszilla, Tortita, Justin Gibbins, rob2d, Silentscope y hasnopants. Entrevistas inglesas: Benjamin Roodberg. Se conservan sus créditos dentro del juego. Capcom y SNK conservan los derechos del juego y sus personajes.
+Traducción española: D4n1984. Base inglesa: Derek Pascarella (ateam), Duralumin, Jesuszilla, Tortita, Justin Gibbins, rob2d, Silentscope y hasnopants. Entrevistas inglesas: Benjamin Roodberg. Se conservan sus agradecimientos dentro del juego. Capcom y SNK conservan los derechos del juego y sus personajes.
